@@ -1,0 +1,46 @@
+.Login_wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+.Login_wrap .form {
+  width: 515px;
+  height: 370px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  box-shadow: 0px 0px 50px 3px #e2e2e2;
+}
+.Login_wrap .form > .font {
+  font-size: 80px;
+  color: #495060;
+}
+.Login_wrap .form > .ant-form {
+  width: 80%;
+  margin: 0 auto;
+}
+.Login_wrap .form > .ant-form .font {
+  font-size: 12px;
+  font-weight: 800;
+}
+.Login_wrap .form > .ant-form .login-form-forgot {
+  float: right;
+}
+.Login_wrap .form > .ant-form .ant-checkbox-wrapper {
+  float: left;
+}
+.Login_wrap .form > .ant-form .ant-btn-primary {
+  width: 100%;
+  background-color: #495060;
+  border-color: #495060;
+}
+.Login_wrap .form > .ant-form .ant-btn-primary:hover {
+  opacity: .95;
+}
+.Login_wrap .form > .ant-form .ant-btn-clicked:after {
+  border: 0 solid #495060;
+}
+.Login_wrap .form > .ant-form .ant-btn-loading:before {
+  display: none;
+}
